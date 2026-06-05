@@ -13,6 +13,19 @@
         .sidebar li:hover { background: #e67e22; }
         /* منطقة المحتوى */
         .main-content { margin-right: 270px; padding: 40px; width: 100%; }
+        .main-content button {
+            margin-top: 20px;
+            padding: 12px 18px;
+            background: #e67e22;
+            border: none;
+            color: white;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        .main-content button:hover {
+            background: #cf6d1b;
+        }
     </style>
 </head>
 <body>
@@ -38,6 +51,7 @@
 <div class="main-content" id="content">
     <h1>مرحباً في قوانين مدينة 24</h1>
     <p>اختر قسماً من القائمة لعرضه.</p>
+    <button onclick="loadPage('lwas/laws_red_crescent')">قوانين الهلال الأحمر</button>
 </div>
 
 <script>
